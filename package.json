@@ -2,12 +2,17 @@
   "name": "workflowproject",
   "version": "0.0.1",
   "description": "A project to showcase workflows",
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "?.git"
+    "url": "https://github.com/anithavallam/workflowproject.git"
   },
-  "author": "ANITHA"
+  "author": "ANITHA",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-coffee": "^2.3.1",
+    "gulp-util": "^3.0.3"
+  }
 }
