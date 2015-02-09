@@ -48,4 +48,4 @@ gulp.src(sassSources)
 });
 
 
-
+gulp.task('default',['coffee','js','compass']);
